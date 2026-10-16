@@ -121,3 +121,23 @@ print(sum_adj_numbers)
 
 ## Q3
 
+
+# a)
+
+# importing necessary packages
+import matplotlib.pyplot as plt
+
+# showing a scatter plot with position_mb on x-axis and log2_ratio on y-axis
+x = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+y = [0.02, -0.04, 0.01, 0.05, -0.02, 0.03, -0.01, 0.48, 0.55, 0.51, 0.59, 0.46, 0.53, 0.57, 0.02, -0.03, 0.04, 0.00, -0.05, 0.01, -0.62, -0.71, -0.66, -0.75, -0.68, -0.64, 0.03, -0.02, 0.01, 0.04]
+plt.scatter(x, y)
+plt.show()
+
+
+# b)
+
+# I tried to save the plot with this command (checked on internet search, but didn't look at ai)
+plt.savefig("scatter.png")
+
+# c)
+
