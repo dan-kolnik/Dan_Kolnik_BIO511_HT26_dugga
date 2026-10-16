@@ -107,7 +107,7 @@ for number in new_list_02:
         rounding_2_sum += 1
         sum_adj += number
     if rounding_2_sum == 1:
-        rounding_2_sum += 1
+        rounding_2_sum == 1
         sum_adj += number
         sum_adj_numbers.append(sum_adj)
     if rounding_2_sum == 2:
